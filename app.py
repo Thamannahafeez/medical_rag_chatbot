@@ -212,8 +212,9 @@ if prompt := st.chat_input("Ask a medical question..."):
     with st.chat_message("assistant"):
         with st.spinner("..."):
             result = answer_query(index, metadata, prompt, llm)
-            st.markdown(response)
+            st.markdown(result)
 
     # Save bot message
     st.session_state["messages"].append(("assistant", result))
+
 
