@@ -2,8 +2,10 @@ streamlit
 torch
 transformers
 sentence-transformers
+langchain
 faiss-cpu
 pandas
 numpy
 PyPDF2
 nltk
+
